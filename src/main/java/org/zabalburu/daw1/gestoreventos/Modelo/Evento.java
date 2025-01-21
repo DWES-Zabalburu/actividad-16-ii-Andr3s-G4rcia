@@ -4,7 +4,9 @@
  */
 package org.zabalburu.daw1.gestoreventos.Modelo;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -15,5 +17,6 @@ public class Evento {
     private String descripcion;
     private Date fecha;
     private String lugar;
-    pricate Strin
+    private boolean mayorEdad;
+    private List<Persona> personasAsistentes = new ArrayList<>();
 }

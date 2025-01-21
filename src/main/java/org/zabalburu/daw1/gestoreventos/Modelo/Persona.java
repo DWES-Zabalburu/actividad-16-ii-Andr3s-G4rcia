@@ -22,4 +22,5 @@ public class Persona {
     private List<Evento> eventosAsistente = new ArrayList<>();
     
     
+    
 }
